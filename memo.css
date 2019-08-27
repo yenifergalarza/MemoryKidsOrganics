@@ -14,7 +14,7 @@ body {
 }
 
 .memory-game {
-  width: 100%;
+  width: 65%;
   height: 100%;
   margin: auto;
   display: flex;
@@ -24,7 +24,7 @@ body {
 
 .memory-card {
   width: calc(24% - 10px);
-  height: calc(33.333% - 10px);
+  height: calc(35.333% - 10px);
   margin: 5px;
   position: relative;
   transform: scale(1);
@@ -45,7 +45,7 @@ body {
 .front-face,
 .back-face {
   width: 100%;
-  height: 100%;
+  height: 101%;
   padding: 20px;
   position: absolute;
   border-radius: 5px;
@@ -78,4 +78,6 @@ height: 100%;}
 h1 {
   text-align: center;
   color: #a42029;
+  padding: 3%;
+  font-size: 44px;
 }
